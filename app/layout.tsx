@@ -10,8 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "AI Powered Exam Question Generator",
   description:
-    "Create customized exam questions instantly using AI. Generate multiple-choice, true/false, short answer, and essay questions for any subject with adjustable difficulty levels.",
-    generator: 'v0.dev'
+    "Create customized exam questions instantly using AI. Generate multiple-choice, true/false, short answer, and essay questions for any subject with adjustable difficulty levels."
 }
 
 export default function RootLayout({
