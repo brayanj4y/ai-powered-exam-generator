@@ -1,1 +1,1 @@
-# ai-powered-exam-generator!
+# ai-powered-exam-generator using gemini api
