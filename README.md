@@ -72,7 +72,28 @@ npm run dev
 ---
 ## Environment Variables
 
-Create a ".env.local" file at the root and include:
+Create a ```.env.local``` file by at the root and include:
 ```bash
 GOOGLE_API_KEY=your_google_gen_ai_api_key
 ```
+## Contribution
+
+Contributions are welcome! Feel free to fork the repository, create a branch, and submit a pull request.
+
+## 📞 Contact the Developer
+
+Have questions or suggestions? Feel free to reach out!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brayan-j4y)  
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/brayanj4y)  
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:souopsylvain@gmail.com) 
+
+I’d love to hear your feedback and ideas. Let's build something great together!
+Thank you for helping improve this project! Your contributions are appreciated. 🎉
+
+
+## Acknowledgments
+
+This project was developed by Souop Silvain Brayan```(ME)``` as part of my exercise to explore real-world applications of web development
+
+
