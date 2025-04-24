@@ -4,6 +4,7 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { ToastProvider } from "@/components/ui/use-toast"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -21,7 +22,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+          <header className="border-b py-2">
+            <div className="container mx-auto flex justify-between items-center">
+              <h1 className="text-lg font-semibold">AI Exam Generator</h1>
+              <ThemeToggle />
+            </div>
+          </header>
           <ToastProvider>{children}</ToastProvider>
         </ThemeProvider>
       </body>
