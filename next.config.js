@@ -1,6 +1,13 @@
 let userConfig = undefined
 try {
-  userConfig = await import('./user-next.config')
+  // Using dynamic import with Promise syntax instead of await
+  const importConfig = () => import('./user-next.config')
+  importConfig().then(config => {
+    userConfig = config
+    mergeConfig(nextConfig, userConfig)
+  }).catch(e => {
+    // ignore error
+  })
 } catch (e) {
   // ignore error
 }
@@ -23,8 +30,6 @@ const nextConfig = {
   },
 }
 
-mergeConfig(nextConfig, userConfig)
-
 function mergeConfig(nextConfig, userConfig) {
   if (!userConfig) {
     return
@@ -45,4 +50,4 @@ function mergeConfig(nextConfig, userConfig) {
   }
 }
 
-export default nextConfig
+module.exports = nextConfig
