@@ -89,11 +89,6 @@ Have questions or suggestions? Feel free to reach out!
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:souopsylvain@gmail.com) 
 
 I’d love to hear your feedback and ideas. Let's build something great together!
-Thank you for helping improve this project! Your contributions are appreciated. 🎉
 
-
-## Acknowledgments
-
-This project was developed by Souop Silvain Brayan```(ME)``` as part of my exercise to explore real-world applications of web development
 
 
